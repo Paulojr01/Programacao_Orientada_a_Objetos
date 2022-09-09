@@ -17,6 +17,7 @@ public class Main {
         estoque2.setQtdAtual(10);
         estoque2.setQtdMinima(2);
 
+        
         System.out.println(estoque2.getNome () + " Estoque atual " + estoque2.getQtdAtual());
 
 

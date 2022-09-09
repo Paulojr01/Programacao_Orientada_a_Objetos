@@ -6,6 +6,28 @@ public class Estoque {
     private int qtdAtual;
     private int qtdMinima;
 
+    // criamos um metodo para dar baixa na quantidade atual do estoque.
+    public void darBaixa(int qtde){
+        if (qtde <= this.qtdAtual)
+            this.qtdAtual -= qtde;
+        else
+          System.out.println("Impossível dar baixa no estoque");
+    }
+
+        public boolean precisaRepor(){
+            if (qtdAtual <= qtdMinima)
+            return true;
+            
+            else
+                return false;     
+    }
+
+        public String mostrar() {
+            return "produto: " + getNome() + "\nEstoque Atual" + getQtdAtual() + "\n Estoque minimo: " +getQtdMinima();
+
+        }
+
+        // dentro da classe não precisamos usar get ou set
     // os metodos são feito na classe e não na main
     // Posso ter mais de um construtor na classe
     // que chama overload de construtores
