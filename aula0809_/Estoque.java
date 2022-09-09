@@ -8,7 +8,7 @@ public class Estoque {
 
     // criamos um metodo para dar baixa na quantidade atual do estoque.
     public void darBaixa(int qtde){
-        if (qtde >= this.qtdAtual)
+        if (qtde <= this.qtdAtual)
             this.qtdAtual -= qtde;
         else
           System.out.println("Impossível dar baixa no estoque");
@@ -38,7 +38,7 @@ public class Estoque {
     
     // construtor é o metodo que tem que ter o mesmo nome da classe
     // e é utilizado para iniciar os atributos da classe
-    public Estoque (String nome, int qdtAtual, int qtdMinima){
+    public Estoque (String nome, int qtdAtual, int qtdMinima){
         // so será usado quando tiver uma classe filha
         super (); 
         // this referencia os atributos da própria classe
@@ -66,6 +66,11 @@ public class Estoque {
     }
     public void setQtdMinima(int qtdMinima) {
         this.qtdMinima = qtdMinima;
+    }
+
+    @Override
+    public String toString() {
+        return "Estoque [nome=" + nome + ", qtdAtual=" + qtdAtual + "]";
     }
 
 }

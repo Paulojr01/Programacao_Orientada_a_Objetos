@@ -6,6 +6,9 @@ public class Main {
     public static void main(String[] args) {
         // primeira variavel estoque1
         Estoque estoque1 = new  Estoque("caneta", 100,1);
+
+        System.out.println(estoque1);
+
         estoque1.setNome("Caneta Azul");
        // System.out.println(estoque1.getNome());
         // os get devemos chamada dentro do print se não ele não roda
@@ -22,10 +25,12 @@ public class Main {
 
        System.out.println(estoque1.getNome());
        estoque1.darBaixa(50);
+
        System.out.println(estoque1.mostrar());
+
         System.out.println("precisar repor o estoque ? " + estoque1.precisaRepor());
         System.out.println(estoque1.mostrar ());
-        
+
 
     }
 }
