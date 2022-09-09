@@ -8,7 +8,7 @@ public class Estoque {
 
     // criamos um metodo para dar baixa na quantidade atual do estoque.
     public void darBaixa(int qtde){
-        if (qtde <= this.qtdAtual)
+        if (qtde >= this.qtdAtual)
             this.qtdAtual -= qtde;
         else
           System.out.println("Impossível dar baixa no estoque");
@@ -23,7 +23,7 @@ public class Estoque {
     }
 
         public String mostrar() {
-            return "produto: " + getNome() + "\nEstoque Atual" + getQtdAtual() + "\n Estoque minimo: " +getQtdMinima();
+            return "produto: " + getNome() + "Estoque Atual " + getQtdAtual() + "\n Estoque minimo: " +getQtdMinima();
 
         }
 
