@@ -5,7 +5,7 @@ public class Main {
     // dados mocados e feito direto no parametros () do construtor
     public static void main(String[] args) {
         // primeira variavel estoque1
-        Estoque estoque1 = new  Estoque("caneta", 100,1);
+        Estoque estoque1 = new Estoque("caneta", 100, 1);
 
         System.out.println(estoque1);
 
