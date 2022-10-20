@@ -1,0 +1,7 @@
+Quando instanciamos o objeto novamente dentro do for
+para o vetor nesse caso estamos dando new para cada valor do vetor
+ou seja instanciamos no man a quantidade de linhas e colunas
+dentro do for para setar os valores
+toda vez que quero comparar string usamos equals ex
+alunos[i].getNome().equals(Buscar) usamos isso para buscarmos o nome dentro
+do valor  
