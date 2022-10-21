@@ -5,3 +5,9 @@ dentro do for para setar os valores
 toda vez que quero comparar string usamos equals ex
 alunos[i].getNome().equals(Buscar) usamos isso para buscarmos o nome dentro
 do valor  
+Podemos chama objeto instanciado dentro de um case para resetarmos o valor 
+ou seja se formos alocar mais um valor vai resetar (ou seja = 0)
+Remover um elemento da array
+for(Pessoa// aqui seria o tipo da variavel contato// seria variavel :// pontos pessoas // seria o objeto da interação)
+for(pessoas contato: pessoas)
+O for diferente seria com funcções lambdas 
