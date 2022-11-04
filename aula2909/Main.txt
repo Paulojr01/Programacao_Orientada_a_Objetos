@@ -5,3 +5,4 @@ static iremos usar para todos os obejtos
 variaveis fixas da classe que podemos usar sem chama o obejto
 Será uma classe com composição quando ao criarmos a classe já termos uma dependencia automatica Ex pizza uma pizza pronta "mussarela" já sabemos todos os ingredientes
 já a agregação seria o ex feito em Lp onde devemos inserir os ingredientes.
+quando temos a composição temos que passar a classe no contrutor  meio que obrigando a informa ou seja uma revista tem que ter uma edição
