@@ -6,3 +6,12 @@ variaveis fixas da classe que podemos usar sem chama o obejto
 Será uma classe com composição quando ao criarmos a classe já termos uma dependencia automatica Ex pizza uma pizza pronta "mussarela" já sabemos todos os ingredientes
 já a agregação seria o ex feito em Lp onde devemos inserir os ingredientes.
 quando temos a composição temos que passar a classe no contrutor  meio que obrigando a informa ou seja uma revista tem que ter uma edição
+Podemos apagar o query que usamos para cria o banco
+e la damos os comados
+baixamos o .jar do postgree e adicionar na minha ide
+https://jdbc.postgresql.org/download/
+
+
+.next sempre mostra o proximo registro usamos no lugar de ++ dentro do while (isso dentro da classe que estamos configurando do banco)
+
+referecebdced libraires
